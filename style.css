@@ -11,12 +11,6 @@
   background-color: #eee;
 }
 
-@media (min-width: 768px) {
-  .wwidth-70 {
-      width: 70%;
-  }
-}
-
 .sticky {
   position: fixed;
   top: 0;
