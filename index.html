@@ -65,6 +65,38 @@
       </nav>
     </header>
 
+    <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav w-100 d-flex justify-content-end">
+        <li class="nav-item">
+          <button
+            class="nav-link btn btn-primary margin-5"
+            onclick="goto('products')"
+            type="button"
+          >
+            PRODUCTS
+          </button>
+        </li>
+        <li class="nav-item">
+          <button
+            class="nav-link btn btn-success margin-5"
+            onclick="goto('contact')"
+            type="button"
+          >
+            CONTACT
+          </button>
+        </li>
+        <li class="nav-item">
+          <button
+            class="nav-link btn btn-secondary"
+            onclick="goto('video')"
+            type="button"
+          >
+            ABOUT
+          </button>
+        </li>
+      </ul>
+    </div> -->
+
     <div class="container mt-5 padding-top-150" id="products">
       <h1 class="my-4 text-center">PRODUCTS</h1>
       <div class="row">
@@ -78,7 +110,7 @@
             <h3 class="py-2">300$</h3>
             <p>Lorem Ipsum</p>
             <p>Lorem Ipsum</p>
-            <button class="btn btn-warning my-2">SELECT</button>
+            <button class="btn btn-warning my-2" type="button">SELECT</button>
           </div>
         </div>
 
@@ -92,7 +124,7 @@
             <h3 class="py-2">300$</h3>
             <p>Lorem Ipsum</p>
             <p>Lorem Ipsum</p>
-            <button class="btn btn-warning my-2">SELECT</button>
+            <button class="btn btn-warning my-2" type="button">SELECT</button>
           </div>
         </div>
 
@@ -106,7 +138,7 @@
             <h3 class="py-2">300$</h3>
             <p>Lorem Ipsum</p>
             <p>Lorem Ipsum</p>
-            <button class="btn btn-warning my-2">SELECT</button>
+            <button class="btn btn-warning my-2" type="button">SELECT</button>
           </div>
         </div>
       </div>
@@ -125,6 +157,7 @@
           <input
             type="email"
             name="email"
+            id="email"
             class="form-control"
             aria-describedby="emailHelp"
             placeholder="Enter email"
@@ -135,7 +168,7 @@
           >
         </div>
         <div class="form-group py-3">
-          <label for="message">Your Message</label>
+          <label for="exampleFormControlTextarea1">Your Message</label>
           <textarea
             class="form-control"
             id="exampleFormControlTextarea1"
